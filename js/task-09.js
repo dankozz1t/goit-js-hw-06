@@ -8,7 +8,7 @@ function getRandomHexColor() {
 }
 
 const refs = {
-  bodyEl: document.querySelector("body"),
+  bodyEl: document.body,
   buttonChangeColorEl: document.querySelector(".change-color"),
   spanColorEl: document.querySelector(".color"),
 };
