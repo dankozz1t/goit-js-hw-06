@@ -8,7 +8,7 @@ const replaceClass = (oldClass, newClass) => {
 };
 
 const onValidatorInput = () => {
-  input.value.length >= DATA_LENGTH
+  input.value.length == DATA_LENGTH
     ? replaceClass("invalid", "valid")
     : replaceClass("valid", "invalid");
 };
