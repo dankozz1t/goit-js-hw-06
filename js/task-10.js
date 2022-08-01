@@ -17,10 +17,10 @@ const refs = {
 refs.boxes.style.display = "flex";
 refs.boxes.style.flexWrap = "wrap";
 refs.boxes.style.padding = "20px";
-
+let boxSize = 30;
 function createBoxes(amount) {
   let markup = "";
-  let boxSize = 30;
+
   for (let i = 0; i < amount; i++) {
     markup += `<div style="width: ${boxSize}px; height: ${boxSize}px; background-color: ${getRandomHexColor()}; margin: 2px;"></div>`;
     boxSize += 10;
