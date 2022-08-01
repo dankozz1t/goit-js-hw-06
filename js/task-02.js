@@ -13,7 +13,6 @@ const itemsEl = ingredients.map((value) => {
   const item = document.createElement("li");
   item.textContent = value;
   item.classList.add("item");
-  console.log(item);
   return item;
 });
 
