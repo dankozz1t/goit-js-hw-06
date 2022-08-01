@@ -12,9 +12,8 @@ const onFormSubmit = (event) => {
       email: email.value,
       password: password.value,
     });
+    event.currentTarget.reset();
   }
-
-  event.currentTarget.reset();
 };
 
 form.addEventListener("submit", onFormSubmit);
